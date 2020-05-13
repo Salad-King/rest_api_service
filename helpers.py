@@ -31,6 +31,9 @@ class Helpers:
 
     @staticmethod
     def validate_input(hour: int, minute: int):
+        """
+        Validates user input
+        """
         if type(hour) != int or type(minute) != int:
             return False
 
